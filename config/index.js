@@ -14,8 +14,6 @@ const config = new Map();
 config.set('dir_src',  'src');
 config.set('dir_dist', 'dist');
 
-config.set('server_host',  'localhost');
-config.set('server_port',  process.env.PORT || 4000);
 config.set('webpack_port', 3000);
 
 config.set('vendor_dependencies', [
@@ -58,7 +56,7 @@ config.set('globals', {
 // Webpack
 // ------------------------------------
 config.set('webpack_public_path',
-  `http://${config.get('server_host')}:${config.get('webpack_port')}/`
+  `http://localhost:${config.get('webpack_port')}/`
 );
 
 // ------------------------------------
