@@ -45,8 +45,7 @@ Features
   * `react-transform-catch-errors` for more visible error reporting
   * Uses babel runtime rather than inline transformations
 * [Webpack](https://github.com/webpack/webpack)
-  * Separate server and client bundles
-    * Client bundle splits app code from vendor dependencies
+    * Splits core application code from vendor dependencies
   * webpack-dev-server
   * sass-loader with CSS extraction
   * eslint-loader
